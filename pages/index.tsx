@@ -1,8 +1,11 @@
-import Layout from '@/layout';
 import { ReactElement } from 'react';
 
+import Layout from '@/layout';
+
+import CompeleteDataForm from '@/containers/data-compeletion-form';
+
 function Home() {
-  return <>hello</>;
+  return <CompeleteDataForm />;
 }
 
 Home.getLayout = function getLayout(page: ReactElement) {

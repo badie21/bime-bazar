@@ -1,0 +1,93 @@
+.address-picker {
+  margin-top: 10px;
+
+  &__title {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 600;
+  }
+  &__address {
+    margin-top: 8px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    & span {
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    & button {
+      height: 48px;
+      background-color: #ffc453;
+      color: #000;
+      border: none;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+
+  &__addresses {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+
+  &__list {
+    padding-bottom: 80px;
+    overflow-y: scroll;
+  }
+
+  &__submit {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #fff;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      width: 320px;
+      height: 40px;
+      border: none;
+      background-color: #000;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+.modal {
+  .react-modal-sheet-container {
+    border-radius: 0 !important;
+  }
+
+  &__header {
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 20px 12px 20px;
+
+    span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    div {
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      color: #c2c2c2;
+    }
+  }
+}

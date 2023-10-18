@@ -1,0 +1,16 @@
+.radio {
+  width: 24px;
+  aspect-ratio: 1;
+  border: 1px solid #c2c2c2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__inner {
+    width: 16px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: blue;
+  }
+}

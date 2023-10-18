@@ -1,0 +1,22 @@
+.address {
+  height: 68px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__name {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__details {
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+  }
+}
